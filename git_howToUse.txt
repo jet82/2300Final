@@ -1,0 +1,17 @@
+Hey guys,
+I've created the pages for our website and "pushed" it to github on jerome's account (did Jerome invite Xiao to our repository yet?)
+From the course website downloads for section 11, there are instructions on using Git, "commit", "push" and stuff like that, basic git cmd keywords.
+You can run Git either from Git Bash or Git GUI, Git Bash is the one the section instructions talks about.
+
+typing "git status" in the git cmd allows checking for anything that needs to be committed from your computer's version to the shared version.
+"git clone" will prompt you to log into your github account within the cmd, and then you need to type in the URL of our repository, as well as the directory in your computer you want to update/save it. 
+
+when updating changes to the repository, always type "git add ." (the period is not a typo), and 
+then "git commit -m 'whatever message you want to write to describe the changes you made in this update'", where -m is the shortcut to writing a message.
+Otherwise, without the "-m" (followed by the message), the git cmd will take you to another program which you will likely have no clue how to use.
+
+finally every time you commit, you have to follow up with "git push", which may prompt you to log in again, which will again be the account you created for yourself on github.com.
+
+Every time you type git add ., the system will search your project directory, and note all files that have been modified or added that are different from the ones published online.  When you commit, those files (changed old files or new files) will be updated, and upon git push, files will be uploaded to the group repository.
+
+So the bottom line is any changes you make/any new files you add must be within the home directory of your clone repository (on your own computer).
